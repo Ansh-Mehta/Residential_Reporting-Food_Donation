@@ -1,3 +1,8 @@
+Group-1 (Web Development Intership) 
+Team members - Ansh Mehta - 32
+               Sakshi Upadhyay - 58
+               Srushti Patil - 43
+
 A single website which will help solve the following problems: Anti Social Activity:
 
 Click photos or record videos of any anti social activity like heaps of uncollected garbage or any illegal activity like bribery and post it on our website and we will make sure that the problem is communicated to the appropriate authority and is solved.
