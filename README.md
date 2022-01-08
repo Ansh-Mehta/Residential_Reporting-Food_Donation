@@ -1,7 +1,5 @@
-Group-1 (Web Development Intership) 
-Team members - Ansh Mehta - 32 
-               Sakshi Upadhyay - 58
-               Srushti Patil - 43
+Group-1 (Web Development Internship) 
+Team members - Ansh Mehta - 32, Sakshi Upadhyay - 58, Srushti Patil - 43
 
 A single website which will help solve the following problems: Anti Social Activity:
 
