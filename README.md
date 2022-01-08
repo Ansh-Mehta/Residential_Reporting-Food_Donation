@@ -1,5 +1,5 @@
 Group-1 (Web Development Intership) 
-Team members - Ansh Mehta - 32
+Team members - Ansh Mehta - 32 
                Sakshi Upadhyay - 58
                Srushti Patil - 43
 
