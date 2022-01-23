@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRvL25T9D0dR41cXvIExcVjNMp9FOkFcAeA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:screen;*/
+  background-color: #fec107;
+}
+.fullcover {
+    border: 2px solid #d5dbd9;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p {
+    padding: 10px;
+    margin: 5px;
+}
+.report {
+    background-color: #fec107;
+    color: black;
+    width: 405px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.evidence {
+    background-color: black;
+    color: yellow;
+    width: 192px;
+}
+.proof {
+    padding-top: 20px;
+}
+.address_tab, .problem_tab {
+    font-size: 16px;
+    border: 3px solid black;
+}
+.heading {
+    margin-top: 30px;
+    background-color: none;
+    color: #fec107;
+    text-align: center;
+    text-decoration: underline;
+}
+.unique_id {
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+    border: 3px solid black;
+}
+b {
+    color: black;
+}
+.first_para {
+  padding-top: 40px;
+}
