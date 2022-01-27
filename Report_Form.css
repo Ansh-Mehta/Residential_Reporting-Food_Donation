@@ -25,9 +25,40 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.heading {
+    margin-top: 30px;
+    background-color: none;
+    color: #fec107;
+    text-align: center;
+    text-decoration: underline;
+}
+.first_para {
+  padding-top: 40px;
+}
+.proof {
+    padding-top: 20px;
+}
 p {
     padding: 10px;
     margin: 5px;
+}
+b {
+    color: black;
+}
+.evidence {
+    background-color: black;
+    color: yellow;
+    width: 192px;
+}
+.address_tab, .problem_tab {
+    font-size: 16px;
+    border: 3px solid black;
+}
+.unique_id {
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+    border: 3px solid black;
 }
 .report {
     background-color: #fec107;
@@ -40,35 +71,4 @@ p {
     margin-left: 16px;
     margin-bottom: 20px;
     border: 2px solid black;
-}
-.evidence {
-    background-color: black;
-    color: yellow;
-    width: 192px;
-}
-.proof {
-    padding-top: 20px;
-}
-.address_tab, .problem_tab {
-    font-size: 16px;
-    border: 3px solid black;
-}
-.heading {
-    margin-top: 30px;
-    background-color: none;
-    color: #fec107;
-    text-align: center;
-    text-decoration: underline;
-}
-.unique_id {
-    padding: 2px;
-    margin-left: 5px;
-    font-size: 16px;
-    border: 3px solid black;
-}
-b {
-    color: black;
-}
-.first_para {
-  padding-top: 40px;
 }
