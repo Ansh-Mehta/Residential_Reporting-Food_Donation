@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.service1, .service2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(219, 197, 197);
+    border-radius: 25px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    transform: translateY(-50%);
+    margin-top: 50px;
+}
+.service1:hover, .service2:hover {
+    background-color: turquoise;
+    transition: 0.5s;
+    z-index: -1;
+}
+.service1 {
+    margin-left: 12px;
+}
+.service2 {
+    margin-left: 5px;
+}
+::selection{
+  color: #000;
+  background: #fff;
+}
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.img{
+  background: url('https://dz01iyojmxk8t.cloudfront.net/wp-content/uploads/2020/04/11225127/Untitled-68.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+  padding-top: 130px;
+}
+.center .sub_title{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+/*---------------------*/
+h1{
+    text-align: center;
+    top:10px;
+}
+div.background {
+    background: url("https://www.mellow947.fm/wp-content/uploads/2021/03/Screen-Shot-2021-03-30-at-11.55.06-AM.png.jpg");
+     height: 500px;
+     position: relative;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    background-blend-mode: screen;
+    background-size: cover;
+  }
+  
+  div.transbox {
+  padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    top: 20%;
+    position: absolute;
+    margin-left: 80px;
+    left: 5%;
+    bottom: 15%;
+    margin-right: 80px;
+  
+  }
+  
+  div.transbox p {
+    margin: 10%;
+    font-weight: bold;
+    color: blacks;
+
+  
+  }
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Aboutus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.Aboutus-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.Aboutus-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Aboutus-col p{
+    padding: 0;
+}
+.Aboutus-col h3{
+   margin-top: 16px;
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+@media(max-width: 700px){
+.row{
+    flex-direction: column;
+}
+}
+
+
+/*---------footer-------*/
+.section4, .section5, .section6 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #495057;
+    color: white;
+}
+.flex-container {
+    display: flex;
+    background-color: #495057;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.ASA {
+    font-size: 35px;
+    text-align: left;
+    color: white;
+    padding-top: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tag {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 60px;
+}
+.vl {
+    border-left: 3px solid grey;
+    height: 160px;
+}
+.flex-container {
+    border: 2px solid #495057;
+    
+}
+p>a{
+    text-decoration: none;
+    color: white;
+}
+.section7 {
+  color: white;
+}
+.down {
+  padding-bottom: 20px;
+}
+.jagah, .jagah2 {
+  padding-bottom: 5px;
+}
